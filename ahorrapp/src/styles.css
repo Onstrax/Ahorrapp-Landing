@@ -1,10 +1,10 @@
 :root {
   /*
-     --primary-color: #091924;
-     --secondary-color: #1C6B74;
-     --accent-color: #36E7D5;
-     --background-color: #DAFCCF; 
-     --highlight-color: #FBD880; */
+        --primary-color: #091924;
+        --secondary-color: #1C6B74;
+        --accent-color: #36E7D5;
+        --background-color: #DAFCCF; 
+        --highlight-color: #FBD880; */
 
   --primary-color: rgb(9, 25, 36);
   --secondary-color: rgb(218, 252, 207);
@@ -16,13 +16,8 @@
 }
 
 body {
-  background-image: url('assets/fondo6.png'); /* Ruta de la imagen del logo */
-  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
-  background-repeat: no-repeat; /* Evita que el logo se repita */
-  background-position: center center; /* Centra el logo en la página */
-  background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
   background-color: #f5f5f5; /* Color de fondo de reserva en caso de que la imagen no se cargue */
-  font-family: 'Roboto', sans-serif; /* Asegura una fuente consistente en toda la página */
+  font-family: "Roboto", sans-serif; /* Asegura una fuente consistente en toda la página */
   margin: 0;
   padding: 0;
   height: 100%;
@@ -31,7 +26,6 @@ body {
   color: var(--primary-color);
   overflow: hidden;
 }
-
 
 button {
   background-color: var(--highlight-color); /* Color de fondo */
@@ -183,10 +177,9 @@ select {
 input:focus,
 textarea:focus,
 select:focus {
-     border-bottom: 2px solid var(--accent-color); /* Cambia el color del borde inferior en foco */
-     border-bottom: 2px solid #004a41; /* Cambia el color del borde inferior en foco */
-     outline: none;
-     box-shadow: 0 4px 4px -2px var(--accent-color);
-     box-shadow: 0 4px 4px -2px #004a41;
+  border-bottom: 2px solid var(--accent-color); /* Cambia el color del borde inferior en foco */
+  border-bottom: 2px solid #004a41; /* Cambia el color del borde inferior en foco */
+  outline: none;
+  box-shadow: 0 4px 4px -2px var(--accent-color);
+  box-shadow: 0 4px 4px -2px #004a41;
 }
-

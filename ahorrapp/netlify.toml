@@ -1,7 +1,0 @@
-[build]
-  publish = "dist/ahorrapp"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200

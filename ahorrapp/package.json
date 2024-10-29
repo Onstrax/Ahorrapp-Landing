@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production",
-    "postbuild": "cp _redirects dist/ahorrapp/_redirects",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -22,7 +21,6 @@
     "@sweetalert2/ngx-sweetalert2": "^12.4.0",
     "ahorrapp": "file:",
     "rxjs": "~7.8.0",
-    "sweetalert2": "^11.14.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
   },
